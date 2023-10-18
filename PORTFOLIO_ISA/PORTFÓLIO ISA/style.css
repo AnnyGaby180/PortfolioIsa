@@ -1,0 +1,326 @@
+/* Define o estilo para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #066163;
+    margin: 0;
+    padding: 0;
+}
+
+/* Define o estilo do cabeçalho (header) da página */
+header img{
+  
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+    font-size: 1.5em;
+    background-image: url(imagens/galeracine.JPG);
+    
+}
+
+/* Define o estilo da barra de navegação (nav) */
+nav {
+    background-color: #CDBE78;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Define o estilo dos links de navegação */
+.tab-links {
+    list-style: none;
+    padding: 0;
+}
+
+.tab-links li {
+    display: inline;
+    margin: 10px;
+}
+
+.tab-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #000000;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.tab-links a:last-child {
+    margin-right: 0;
+}
+
+.tab-links a:hover {
+    background-color: #888;
+}
+
+/* Define o estilo para o conteúdo das abas */
+.tab-content .tab {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(243, 28, 28, 0.2);
+}
+
+/* Define o estilo para a aba ativa */
+.tab-content .active {
+    display: block;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Define o estilo para os títulos de segundo nível (h2) */
+h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+}
+
+/* Define o estilo para parágrafos (p) */
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+/* Define o estilo para as imagens */
+img {
+    max-width: 80%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Define o estilo para os botões "Clique para ver mais" */
+.button-ver-mais {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto; /* Centraliza o botão horizontalmente */
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+}
+
+.button-ver-mais:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* Estilos para o contêiner que envolve a imagem e o terceiro parágrafo */
+.image-paragraph-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Estilos para o terceiro parágrafo */
+.side-paragraph {
+    flex: 1;
+}
+
+/* Define a animação de fade-in usando keyframes */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+img {
+    width: 500px;
+    border-radius: 15px;
+}
+
+.header {
+    background: url('imagens/claquete.jpg') center/cover no-repeat;
+    height: 300px;
+    text-align: center;
+    color: white;
+    padding: 60px 0;
+}
+.header h1 {
+    font-size: 36px;
+
+ }
+
+ /* Estilo para o corpo da página galeria*/
+.galeria {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333;
+    color: rgb(255, 243, 243);
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.5em;
+}
+
+/* Estilo para a galeria de imagens */
+.gallery-container {
+    
+}
+
+
+#gallery-image:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para os botões de navegação */
+button {
+    background-color: #333;
+    color: rgb(251, 255, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Estilo para os botões de navegação quando hover */
+button:hover {
+    background-color: #555;
+    text-align: center;
+}
+
+/* Estilo para a classe que envolve os botões */
+.gallery-buttons {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.titulo1 {
+    color: #ccc;
+}
+/* Seu CSS existente */
+
+/* Estilo para a imagem de perfil */
+.profile-photo {
+    width: 500px; /* Ajuste o tamanho conforme necessário */
+    height: 500px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%; /* Forma circular */
+    overflow: hidden;
+    animation: bounce 1s infinite alternate; /* Animação de pulo */
+    margin-right: 20px; /* Espaçamento entre a foto e o texto */
+    float: left; /* Ajuste a posição ao lado do texto */
+}
+
+/* Animação de pulo */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0); /* Posição inicial */
+    }
+    50% {
+        transform: translateY(-20px); /* Posição no meio do pulo */
+    }
+}
+
+/* Ajuste de estilo para o texto ao lado da imagem */
+.about-text {
+    float: left; /* Ajuste a posição ao lado da imagem */
+    width: calc(100% - 200px); /* Ajuste conforme necessário para deixar espaço para a imagem */
+}
+
+/* Limpar o float para evitar problemas de layout */
+.about-text::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+/* Estilo para a seção "Sobre Mim" */
+
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+#about .profile-and-text-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* Estilo para a seção "Meus Projetos" */
+#projects {
+    padding: 20px;
+}
+
+#projects h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+}
+
+#projects p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+#projects .image-paragraph-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#projects .side-paragraph {
+    flex: 1;
+}
+
+#projects .button-ver-mais {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+}
+
+#projects .button-ver-mais:hover {
+    background-color: yellow;
+    color: black;
+}
+
+
+
+
+
+
+
+

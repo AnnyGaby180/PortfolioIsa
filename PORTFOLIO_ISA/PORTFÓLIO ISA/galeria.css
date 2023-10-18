@@ -1,0 +1,80 @@
+/* Define o estilo para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Define o estilo do cabeçalho (header) da página */
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+    font-size: 1.5em;
+}
+
+/* Define o estilo da barra de navegação (nav) */
+nav {
+    background-color: #444444;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Define o estilo dos links de navegação */
+.tab-links {
+    list-style: none;
+    padding: 0;
+}
+
+.tab-links li {
+    display: inline;
+    margin: 10px;
+}
+
+.tab-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #000000;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.tab-links a:last-child {
+    margin-right: 0;
+}
+
+.tab-links a:hover {
+    background-color: yellow; /* Amarelo quando o mouse passa por cima */
+    color: black;
+}
+
+/* Define o estilo para a galeria de imagens */
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.image-container img:hover {
+    transform: scale(1.05); /* Efeito de escala quando o mouse passa por cima */
+}
+
+.image-container p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}

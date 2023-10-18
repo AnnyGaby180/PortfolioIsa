@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="caminho-para-lightbox/css/lightbox.min.css">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <header>
+        <h1>AGLA MANZAN</h1>
+    </header>
+
+    <nav>
+        <ul class="tab-links">
+            <li><a href="#about">Sobre Mim</a></li>
+            <li><a href="#projects">Meus Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+            <li><a href="certificados.html" target="_blank">Certificados</a></li>
+            <li><a href="trabalhecomigo.html" target="_blank">Trabalhe comigo</a></li>
+        </ul>
+    </nav>
+
+    <div id="about" class="tab">
+        <div class="profile-and-text-container">
+            <!-- Adicionando a imagem de perfil com borda redonda e animação de pulo -->
+            <div class="profile-container">
+                <img src="imagens/claquete.jpg" alt="Minha Foto" class="profile-photo">
+            </div>
+
+            <!-- Texto "Sobre Mim" -->
+            <div class="about-text">
+                <h2>Sobre Mim</h2>
+                <p>Criada no universo da arte, atriz amadora desde os 12 anos. Sou bacharelanda em Cinema e Audiovisual pelo Instituto Federal de Goiás na Cidade de Goiás. Sou diretora de cinema, atriz amadora, musicista (violão e bateria), editora/montadora audiovisual e fotógrafa. Atuante na cadeia cinematográfica.</p>
+            </div>
+        </div>
+        <nav>
+    </div>
+
+    <div id="projects" class="tab">
+        <h2>Meus Projetos</h2>
+        <p><strong>2023 - "TEMPO TORMENTO" (Curta-metragem)</strong><br>
+        Função: Roteiro, direção e edição/montagem (EM FINALIZAÇÃO)</p>
+        <div class="image-paragraph-container">
+            <div class="image-container">
+                <img src="imagens/galeracine.JPG" alt="Imagem 2">
+                <button class="button-ver-mais">
+                    <a href="galeria.html" style="text-decoration: none; color: white;">Saiba Mais</a>
+                </button>
+            </div>
+            <p class="side-paragraph">Cecília, uma jovem escritora em busca de inspiração, encontra orientação inesperada de Emily Dickinson para seu bloqueio criativo e reavivar sua paixão pela poesia, embarcando em uma jornada onírica de palavras e memórias.</p>
+        </div>
+    </div>
+</nav>
+
+    <!-- Outros projetos e conteúdo -->
+<header>
+ <!-- Seção "Contato" -->
+<div id="contact" class="tab">
+    <h2>Contato</h2>
+    <p>Vamos bater um papo? Você pode me seguir nas redes sociais ou enviar um e-mail, terei o maior prazer em conversar com você.</p>
+    <p>Email: <a href="mailto:isaagla.oficial@gmail.com">isaagla.oficial@gmail.com</a></p>
+
+    <!-- Formulário de contato -->
+    <h3>Envie uma mensagem:</h3>
+    <form id="contactForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+    <script src="caminho-para-lightbox/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
